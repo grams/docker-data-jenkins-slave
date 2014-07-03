@@ -8,3 +8,5 @@ RUN mkdir -p /home/jenkins/slave/workspace
 RUN chown -R jenkins:jenkins /home/jenkins/slave
 
 VOLUME ["/home/jenkins/slave/workspace"]
+
+CMD ["true"]
